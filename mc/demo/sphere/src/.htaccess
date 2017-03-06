@@ -1,0 +1,5 @@
+AuthName "Members only"
+AuthType Basic
+AuthUserFile /home/zhang/public_html/protected/.htpasswd
+AuthGroupFile /dev/null
+require user zhang

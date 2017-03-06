@@ -1,0 +1,79 @@
+/**
+ * Hanzhou Zhang
+ */
+
+import java.applet.Applet;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+import javax.swing.border.*;
+
+public class MeshSquareApplet extends JApplet 
+implements ActionListener 
+{
+    public MeshSquareApplet() 
+	{
+    }
+
+    public void init() 
+	{
+		//		Container contentPane = getContentPane();
+	
+      setBackground( Color.black );
+    }
+
+	public void paint( Graphics g ) {
+
+      // As we learned in the last lesson,
+      // the origin (0,0) is at the upper left corner.
+      // x increases to the right, and y increases downward.
+
+      g.setColor( Color.red );
+      g.drawRect( 10, 20, 100, 15 );
+      g.setColor( Color.pink );
+      g.fillRect( 240, 160, 40, 110 );
+	}
+
+    public void destroy() 
+	{
+
+    }
+    
+
+    public void actionPerformed(ActionEvent e) {
+
+		Object target = e.getSource();
+//		if(target==start)
+//		{
+//			MCthread mct = new MCthread();
+//			mct.start();
+//		}
+//
+//		if(target==n_ptcl)
+//		{
+//			scene.detach();
+//			scene = createParticles();
+//			u.addBranchGraph(scene);
+//		}
+
+    }
+			   
+	private class MCthread extends Thread
+	{
+		public MCthread()
+		{
+		}
+		
+		public void run()
+		{
+			//System.out.println(mcs);
+		}
+	}
+			   
+    public static void main(String[] args) 
+	{
+		Frame frame = new MainFrame(new MeshSquareApplet(), 800, 800);
+    }
+
+}			   

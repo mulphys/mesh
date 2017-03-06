@@ -1,0 +1,48 @@
+<html>
+<style>
+        body { font-family: helvetica; color: black; font-size: 14pt;}
+</style>
+<head><title>MC-Mesh-3D</title></head>
+<body BACKGROUND="../../../../backgrounds/backgrnd.gif">
+<a href="../../../../index.html"><img src=../../../../icons/home.gif alt="Home"></a>
+<a href="../../index.php"><img src=../../../../icons/left.gif alt="Back"></a>
+<hr>
+<body> 
+<center>
+      <h1>Monte-Carlo Meshing: 3D Case</h1>
+<p>
+A <a
+href="http://wwws.sun.com/software/java/">Java plug-in</a> is needed to see
+use the 3D viewer.
+</p>
+</center>
+
+<p>
+3D simulation of node placement using 
+<a href="../../index.php#mc">Monte Carlo (MC)</a>, 
+<a href="../../index.php#gcmc">Grand Canonical MC</a>,
+<a href="../../index.php#md">Molecular Dynamics (MD)</a>,
+<a href="../../index.php#mdmc">Molecular Dynamics - Monte Carlo (MDMC)</a>,
+and 
+<a href="../../index.php#mdgcmc">Molecular Dynamics - Grand Canonical Monte Carlo (MDGCMC)</a>,
+algorithms. When running GCMC and MDGCMC algorithms newly inserted nodes are painted red.
+</p>
+
+<center>
+	<applet code=Mesh.class width=480 height=480>
+	<param name="model" value="cube.config">
+	<param name="xrot" value="15">
+	<param name="yrot" value="75">
+	<param name="zrot" value="15">
+	alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
+	Your browser is completely ignoring the &lt;APPLET&gt; tag!
+	</applet>
+<br>
+<div>Select the model to run and the initial number of particles from the
+	boxes above.</div>
+<div>Mouse controlls: Left button - rotate, Middle - shift, Right - zoom</div>
+</center>
+
+</body>
+</html>	  
+

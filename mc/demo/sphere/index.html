@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>MC-Mesh-Sphere</title>
+  <meta name="generator" content="amaya 8.6, see http://www.w3.org/Amaya/" />
+</head>
+
+<body>
+
+<h2>MC-Mesh Generation on a Sphere</h2>
+
+<p>Here is an example of using MC simulation to solve the N-Body problem on a
+sphere. It uses Metropolis MC method to minimize the system potential and
+thus find near-equilibrium configuration of the particles. See the paper
+"MONTE-CARLO AND POLYHEDRON-BASED SIMULATIONS I: EXTREMAL STATES OF THE
+LOGRITHMIC N-BODY PROBLEM ON A SPHERE" by Lim, Nebus, and Assad for details
+(<a href="http://www.rpi.edu/~limc">http://www.rpi.edu/~limc</a>).</p>
+
+<p></p>
+
+<p>The java code (<a href="MonteCarloSphere.java">MonteCarloSphere.java</a> ,
+<a href="NBodyApplet.java">NBodyApplet.java</a>) can be run as an application
+or an applet. Click the picture below to run the applet. We can see initial
+randomly distributed paritcles are distributed into well spaced positions via
+the Monte Carlo simulation. If connecting those particles, we can get a
+well-shaped surface mesh. </p>
+
+<p></p>
+
+<p>Please note: <span
+style="font-weight: bold; font-size: 12pt">Java3D</span> is needed in order
+to run this applet. And of course you need the Java plugin for your
+browser.</p>
+
+<p></p>
+
+<p>.<a href="NBodyApplet.html"><img alt="snapshot" src="snapshot.jpg"
+/></a></p>
+
+<p></p>
+
+<p>Consider geometries to be meshed as energy systems, by using the same
+idea, we can generate meshes using MC simulation.</p>
+</body>
+</html>
