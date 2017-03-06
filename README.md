@@ -6,10 +6,10 @@
 
 ## Methods
 
-### [Tool Meshing](http://mulphys.com/tam/index.html)
-### [Monte-Carlo Meshing](http://mulphys.com/mesh/mc/index.php)
-### [Propagating Front Meshing]((http://mulphys.com/pf/index.html)
-### [Space-Time Meshing](http://mulphys.com/gem/4D/index.html)
+### [Tool Meshing](http://galacticbubble.com/mulphys/tam/index.html)
+### [Monte-Carlo Meshing](http://galacticbubble.com/mulphys/mesh/mc/index.php)
+### [Propagating Front Meshing](http://galacticbubble.com/mulphys/mesh/pf/index.html)
+### [Space-Time Meshing](http://galacticbubble.com/mulphys/gem/4D/index.html)
 
 ## Demos
 
