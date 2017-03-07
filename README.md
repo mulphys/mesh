@@ -13,7 +13,7 @@
 
 ## Demos
 
-#### To run the Monte-Carlo meshing demos change to mc/demo/run directory and run
+#### To run the Monte-Carlo meshing demos change to [mc/demo/run](mc/demo/run) directory and run
 
 - appletviewer line.html
 - appletviewer square.html
