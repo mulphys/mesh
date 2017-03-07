@@ -19,7 +19,7 @@
 - appletviewer square.html
 - appletviewer cube.html
 
-#### To run the propagating front meshing demo change to pf directory and run
+#### To run the propagating front meshing demo change to [pf](pf) directory and run
 
 - appletviewer pfmesh.html
 
