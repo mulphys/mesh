@@ -1,8 +1,6 @@
-# Meshing Algorithms
+# Meshing Algorithms ([URL](http://galacticbubble.com/mulphys/mesh))
 
 ## Author: [Andrei V Smirnov](mailto:andrei.v.smirnov@gmail.com)
-
-## [URL](http://galacticbubble.com/mulphys/mesh) 
 
 ![mesh](bif.png)
 
