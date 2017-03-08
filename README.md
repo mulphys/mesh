@@ -13,6 +13,8 @@
 
 ## Demos
 
+![mesh](bif.png)
+
 #### To run the Monte-Carlo meshing demos change to [mc/demo/run](mc/demo/run) directory and run
 
 - appletviewer line.html
