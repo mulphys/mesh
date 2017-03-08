@@ -2,7 +2,7 @@
 
 ## Author: [Andrei V Smirnov](mailto:andrei.v.smirnov@gmail.com)
 
-## [URL](http://galacticbubble.com/mulphys/mesh)
+## [URL](http://galacticbubble.com/mulphys/mesh) ![mesh](bif.png)
 
 ## Methods
 
@@ -12,8 +12,6 @@
 ### [Space-Time Meshing](http://galacticbubble.com/mulphys/gem/4D/index.html)
 
 ## Demos
-
-![mesh](bif.png)
 
 #### To run the Monte-Carlo meshing demos change to [mc/demo/run](mc/demo/run) directory and run
 
