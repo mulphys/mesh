@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+      <title>Heuristic Meshing</title>
+  </head>
+  <body>
+    <h1>Heuristic Meshing Using Propagating Front Method</h1>
+
+<p> The Applet below demonstrates 2D heuristic meshing of a wing-like contour
+constructed using <a
+href="http://en.wikipedia.org/wiki/B%C3%A9zier_curve#Cubic_B.C3.A9zier_curves">cubic
+Bezier curves</a>. The contour meshing is done using a heuristic propagating front method supplemented with a mesh smoothing based on center-area node adjustments. 
+The "Set" button modifies the shape, and the "Mesh" botton creates a mesh.
+</p>
+<p>The Applet is 3D: the
+contour can be rotated, scaled, and translated by pushing different mouse
+buttons and dragging the mouse.  </p>
+
+<hr/>
+<p align="center">
+<applet code="Demo.class" width="500" height="500">
+	<param name="model" value="shape.dat"/>
+	<param name="zoom" value="1.0"/>
+	<param name="xrot" value="0"/>
+	<param name="yrot" value="0"/>
+	<param name="zrot" value="0"/>
+  alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
+  Your browser is completely ignoring the &lt;APPLET&gt; tag!
+</applet>
+</p>
+<a href="mesh2d.tgz">The source (tar-gzip)</a>.
+<hr/>
+<div class="center">&copy; 2007 <a href="http://smirnov.mae.wvu.edu">Andrei Smirnov</a></div>
+</body>
+</html>

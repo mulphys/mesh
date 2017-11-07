@@ -1,0 +1,9 @@
+This is a Java application to generate a 2D mesh for a convex shape.
+It reads input file containing domain boundary and writes output file with mesh data.
+Example input file is shape.dat and output file is mesh.dat.
+
+The application can be compiled and run as: 
+
+javac Main.java; java Main < shape.dat > mesh.dat
+
+Example mesh is shown in mesh.png file.

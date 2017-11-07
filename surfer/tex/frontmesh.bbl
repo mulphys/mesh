@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{AkGlCGD2001}
+S.~Akkouche and E.~Galin.
+\newblock {Adaptive Implicit Surface Polygonization Using Marching Triangles}.
+\newblock 20:67--80, 2001.
+
+\bibitem{OsJCP1988}
+S.~Osher and J.~A. Sethian.
+\newblock {Fronts propagating with curvature-dependent speed: Algorithms based
+  on Hamilton–Jacobi formulations}.
+\newblock {\em J. Comput. Phys.}, 79:12--49, 1988.
+
+\bibitem{TetgenFF}
+WIAS.
+\newblock {Tetgen File Formats}.
+\newblock
+  \href{http://wias-berlin.de/software/tetgen/fformats.html}{wias-berlin.de},
+  2017.
+
+\end{thebibliography}
